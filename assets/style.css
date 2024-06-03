@@ -1,0 +1,47 @@
+@import url(./fonts/fonts.css);
+@font-face{
+    font-family: 'Golos_Text_bold';
+    src: url(./Golos-Text_Bold.ttf);
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'Golos_Text_regular';
+    src: url(./Golos-Text_Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Golos_Text_demibold';
+    src: url(./Golos-Text_DemiBold.ttf);
+    font-weight: 600;
+}
+
+
+*{
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Monrope';
+    
+}
+body{
+    background-color: #eed9d9;
+     --bs-body-color--bs-body-color-rgb
+}
+   
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto ;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section a{
+    color: #801800;
+    padding: 20px;
+    font-family: 'Golos_Text_regular';
+    font-weight: 400;
+}
